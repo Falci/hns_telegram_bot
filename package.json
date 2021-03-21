@@ -1,0 +1,15 @@
+{
+  "name": "hns_telegram_bot",
+  "version": "0.0.0",
+  "main": "lib/plugin.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ../hsd/bin/hsd --plugins='../../hns_rpc_bot' --log-level=info"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcurl": "^0.1.9"
+  }
+}
